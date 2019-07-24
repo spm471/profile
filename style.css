@@ -1,0 +1,52 @@
+#profile-img {
+  margin: 40px;
+  width: 200px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.list-inline li {
+  display: inline-block;
+  font-size: 38px;
+  margin: 120px;
+  padding : 0;
+}
+
+ul.no-padding {
+  padding: 0;
+}
+
+
+
+body {
+  background-image: url("images/canyon.jpg");
+  background-size: cover;
+}
+
+.box-white {
+  width: 1200px;
+  margin: 20px auto;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 100px auto;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
